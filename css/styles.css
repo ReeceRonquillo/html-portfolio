@@ -1,0 +1,79 @@
+.head1{
+    color:yellow;
+    text-shadow: -2px -2px 0 black, /* horizontal-offset vertical-offset blur color */
+                2px -2px 0 black,
+                -2px 2px 0 black,
+                 2px 2px 0 black;
+}
+.head2{ /*outline words */
+    color:rgb(0, 204, 255);
+    text-shadow: -2px -2px 0 black, /* horizontal-offset vertical-offset blur color */
+                2px -2px 0 black,
+                -2px 2px 0 black,
+                 2px 2px 0 black;
+}
+
+.anime{
+    text-align: center;
+}
+
+.parent{
+    width: 450px;
+    height: 500px;
+    margin:auto;
+    background-color: sandybrown;
+    overflow:scroll;
+}
+
+.child1 {
+    width: 450px;
+    height: 350px;
+    background-color:lightcyan;
+}
+
+.animetitle{
+    text-align: center;
+}
+
+a{color:black;} /*makes hyperlinks black */
+
+.topbackground{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/270/660/12/tokyo-japan-aestethic-artwork-digital-art-hd-wallpaper-preview.jpg);
+}
+
+.backgroundcolor{
+    background-color: yellow;
+}
+
+.lastsection{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+*{ box-sizing: border-box;}
+
+.icons{
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.contactinfo{
+    
+        display:grid; 
+        grid-template-columns: auto auto auto auto;
+
+    
+}
+.contactright{
+    text-align: right; /*moves icons to the right */
+    
+}
+
+.contactme{
+    margin: 0;
+}
